@@ -10,7 +10,7 @@ language: "de"     # lowercase two-letter ISO language code such as "fr" (see ht
 latitude: "51"        # decimal latitude of workshop venue (use https://www.latlong.net/)
 longitude: "10"       # decimal longitude of the workshop venue (use https://www.latlong.net)
 humandate: "Feb 22, 2024"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
-humantime: "FIXME"    # human-readable times for the workshop e.g., "9:00 am - 4:30 pm CEST (7:00 am - 2:30 pm UTC)"
+humantime: "9:00 am - 4:30 pm CEST"    # human-readable times for the workshop e.g., "9:00 am - 4:30 pm CEST (7:00 am - 2:30 pm UTC)"
 startdate: 2024-02-22      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2024-02-22        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 instructor: ["Everardo Gonzalez", "Ines Schmahl"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
@@ -329,9 +329,9 @@ We will use this <a href="{{ page.collaborative_notes }}">collaborative document
 SURVEYS - DO NOT EDIT SURVEY LINKS
 {% endcomment %}
 <h2 id="surveys">Surveys</h2>
-<p>Please be sure to complete these surveys before and after the workshop.</p>
+<p>Please be sure to complete the survey after the workshop.</p>
 {% if site.carpentry == "incubator" %}
-<p><a href="{{ site.incubator_pre_survey }}">Pre-workshop Survey</a></p>
+#<p><a href="{{ site.incubator_pre_survey }}">Pre-workshop Survey</a></p>
 <p><a href="{{ site.incubator_post_survey }}">Post-workshop Survey</a></p>
 {% elsif site.incubator_pre_survey or site.incubator_post_survey %}
 <div class="alert alert-danger">
