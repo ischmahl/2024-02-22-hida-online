@@ -327,8 +327,8 @@ We will use this <a href="{{ page.collaborative_notes }}">collaborative document
 {% comment %}
 SURVEYS - DO NOT EDIT SURVEY LINKS
 {% endcomment %}
-<h2 id="surveys">Surveys</h2>
-<p>Please be sure to complete the survey after the workshop.</p>
+<h2 id="surveys">Survey</h2>
+<p>The link is provided via Indico.</p>
 {% if site.carpentry == "incubator" %}
 {% elsif site.incubator_pre_survey or site.incubator_post_survey %}
 <div class="alert alert-danger">
