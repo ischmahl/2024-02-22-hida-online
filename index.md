@@ -325,11 +325,7 @@ We will use this <a href="{{ page.collaborative_notes }}">collaborative document
 {% endif %}
 
 
-{% comment %}
 
-
-
-{% comment %}
 SCHEDULE
 
 Show the workshop's schedule.
